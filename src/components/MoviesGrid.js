@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import MovieCard from "./MovieCard";
 import "../styles.css";
 
-export default function () {
+export default function MovieGrid() {
   const [movies, setMovies] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
 
